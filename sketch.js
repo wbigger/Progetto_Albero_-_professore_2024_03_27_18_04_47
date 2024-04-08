@@ -8,7 +8,7 @@
 **/
 
 function setup() {
-  createCanvas3D(600, 400);
+  createCanvas3D(windowWidth, windowHeight);
   //Change background color of the scene
 
   environment(SUNSET);
@@ -43,4 +43,8 @@ function setup() {
 function draw() {
   // 🔍 Never create objects here, but don't forget to have it in your code:
   // leave empty for the moment
+}
+
+function windowResized() {
+  resizeCanvas3D(windowWidth,windowHeight);
 }
