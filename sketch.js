@@ -9,6 +9,7 @@
 
 function setup() {
   createCanvas3D(windowWidth, windowHeight);
+  getOrbit().autoRotate = true;
   //Change background color of the scene
 
   environment(SUNSET);
