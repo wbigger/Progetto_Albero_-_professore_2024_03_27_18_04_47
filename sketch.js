@@ -14,6 +14,7 @@ function setup() {
 
   environment(SUNSET);
   background3D("white"); 
+  setCamera(0, 20, 30);
 
   let albero = beginGroup();
   diffuse("green");
